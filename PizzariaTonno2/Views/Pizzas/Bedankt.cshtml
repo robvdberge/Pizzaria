@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Bedankt";
+}
+
+<h2>Bedankt</h2>
+<div class="container">
+    <div class="col-4 m-auto text-center">
+        <h2>Bedankt voor uw bestelling</h2>
+        <p>Het totaal wordt: € @ViewBag.total</p>
+        @Html.ActionLink("Graag gedaan", "Index", "Home")
+    </div>
+</div>
+
+
